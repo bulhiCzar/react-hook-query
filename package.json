@@ -1,0 +1,64 @@
+{
+  "name": "react-hook-query",
+  "version": "0.0.3",
+  "private": false,
+  "author": "bulhi <bulhi.czar@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/bulhiCzar/react-hook-query"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "query",
+    "router",
+    "useQuery"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/lib.umd.js",
+  "module": "./dist/lib.es.js",
+  "types": "./dist/index.d.ts",
+  "source": "./src/index.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "commit": "git add . && git commit && git push",
+    "pub": "yarn build && npm publish --access public && yarn commit"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-router-dom": "6.3.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "5.36.1",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@vitejs/plugin-react": "2.0.1",
+    "eslint": "8.23.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-react-app": "7.0.1",
+    "eslint-plugin-react": "7.31.1",
+    "react-dom": "18.2.0",
+    "typescript": "4.6.4",
+    "vite": "3.0.7",
+    "vite-plugin-dts": "1.4.1",
+    "vite-plugin-eslint": "1.8.1"
+  },
+  "peerDependencies": {
+    "react": ">= 17",
+    "react-router-dom": ">= 5"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "react-app"
+  ]
+}
