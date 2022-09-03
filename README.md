@@ -1,6 +1,6 @@
 Storing the state in the url query parameters
 ---
-Package size:  4.5 kB
+Package size:  1.5 kB
 ---
 
 <p align="center">
