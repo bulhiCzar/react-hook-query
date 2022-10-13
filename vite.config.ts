@@ -15,6 +15,10 @@ export default defineConfig((configEnv) => {
         react(),
         eslint(),
       ],
+      server: {
+        port: 3000,
+        open: true,
+      },
     }
   }
 

@@ -1,6 +1,6 @@
 {
   "name": "react-hook-query",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "author": "bulhi <bulhi.czar@gmail.com>",
   "license": "MIT",
@@ -18,7 +18,7 @@
     "dist"
   ],
   "main": "./dist/lib.umd.js",
-  "module": "./dist/lib.es.js",
+  "module": "./dist/lib.umd.js",
   "types": "./dist/index.d.ts",
   "source": "./src/index.ts",
   "publishConfig": {
